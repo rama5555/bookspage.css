@@ -1,0 +1,55 @@
+# bookspage.css
+<style>
+
+.border{
+border:5px solid green;
+border-radius:8px;
+padding:0;
+margin:0;
+}
+
+.border:hover{
+border:7px dodgerblue;
+padding:0;
+box-shadow:1px 1px 10px 2px dodgerblue;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.img1{
+float:left;
+}
+
+.img1:hover {
+  transform: scale(2.0); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.l:link, .l:visited {
+  background-color: green;
+  color: white;
+  padding:5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.l:hover, .l:active {
+  background-color:red;
+}
+
+.i{
+    animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+
+</style>
